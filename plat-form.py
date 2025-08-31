@@ -22,13 +22,12 @@ try:
         print("hey you are working in linux")
     else:
         print("please mention your system in code")
+
+     # pushing the code in repo   
     os.system("git status")
-    if os.system("git status")== 0:
-        os.system("git add . ")
-        comment = input("please enter comment for repository :  ")
-        os.system(f"git commit -m'{comment}'  ")
-        os.system("git push origin main")
-    else: 
-        print('updated all')
+    os.system("git add . ")
+    comment = input("please enter comment for repository :  ")
+    os.system(f"git commit -m'{comment}'  ")
+    os.system("git push origin main")
 except:
     print('some error occured')
