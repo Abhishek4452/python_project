@@ -6,10 +6,11 @@ try:
     print(f"multiplication table of {int(a)} is : ")#error occur if the variable a is not of integer type
     for i in range(1,11):
         print(f"{int(a)} X {i} = {int(a)*i}")
+        print(" HERE IS YOUR TABLE ")
 
 except ValueError:# when value error occur then print this other wise something else
     print("please enter some value not the character : ")
-    
+
 except Exception as e:
     print(e)
     print(" ------ error occur ----- ")
