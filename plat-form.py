@@ -29,5 +29,5 @@ try:
     comment = input("please enter comment for repository :  ")
     os.system(f"git commit -m'{comment}'  ")
     os.system("git push origin main")
-except:
-    print('some error occured')
+except Exception as e:
+    print('some error occured', e)
