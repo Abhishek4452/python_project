@@ -25,7 +25,7 @@ try:
     os.system("git status")
     if os.system("git status")== 0:
         os.system("git add . ")
-        comment = input("please enter comment for repo :  ")
+        comment = input("please enter comment for repository :  ")
         os.system(f"git commit -m'{comment}'  ")
         os.system("git push origin main")
     else: 
