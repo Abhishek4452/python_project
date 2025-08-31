@@ -23,10 +23,12 @@ try:
     else:
         print("please mention your system in code")
     os.system("git status")
-    os.system("git add . ")
-    comment = input("please enter comment for repo :  ")
-    os.system(f"git commit -m'{comment}'  ")
-    os.system("git push origin main")
-    
+    if os.system("git status")== 0:
+        os.system("git add . ")
+        comment = input("please enter comment for repo :  ")
+        os.system(f"git commit -m'{comment}'  ")
+        os.system("git push origin main")
+    else: 
+        print('updated all')
 except:
     print('some error occured')
