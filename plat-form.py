@@ -1,5 +1,6 @@
 import platform
 # platfrom module help us to know our system
+# using mainly for working in cross platform compatibility and diagnose
 import os
 
 print(platform.system())# in which system we are working on
