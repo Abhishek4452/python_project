@@ -7,13 +7,16 @@ import time
 
 mytext = "sout out to abhishek pokhriyal from GBPIET pauri garhwal"
 language = "en" #english language is selected
+
 myfile = gTTS(text=mytext, lang =language,slow =False)
 
 myfile.save("language-file.mp3")
 
-system_name = platform.system()
+system_name = platform.system() 
+
 time.sleep(3)
 print(system_name)
+
 if system_name == "windows":
     os.system("start language-file.mp3")
 elif system_name =="Linux":
