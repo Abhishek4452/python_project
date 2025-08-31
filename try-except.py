@@ -1,3 +1,4 @@
+import time
 a = input("enter the number : ")
 
 # exception handling in by using the try and except statment
@@ -17,3 +18,14 @@ except Exception as e:
     print("keep trying with other number")
 
 print("have a nice day bro ")
+
+
+#second program here 
+print("second program begin ")
+try: 
+    while True:
+        print('aa')
+        time.sleep(0.02)
+except KeyboardInterrupt: #used when you want to run more program after exit from the loop (while)
+    print('error occur')
+print("end here")
