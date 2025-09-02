@@ -3,6 +3,9 @@ import platform
 # using mainly for working in cross platform compatibility and diagnose
 import os
 
+
+
+
 print(platform.system())# in which system we are working on
 
 print(platform.release())# which 6.12.41+deb13-amd64
@@ -14,6 +17,9 @@ print(platform.processor())
 print(platform.python_version())# python version will print out
 
 print(platform.platform())# give platform data
+
+
+
 
 try:
     if platform.system() =="Window":
