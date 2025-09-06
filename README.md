@@ -10,7 +10,12 @@ A collection of Python projects focused on practical applications and automation
 2. **To-Do List**  
    A simple yet effective task management tool built using Python.
 
-3. *(Add new project details here)*
+3. **news.py**
+   *need to do more work*
+
+4. **esp 32 based temperature and whether detection system**
+   using oled display we will show the output. this all done through the raspbery pi .
+
 
 ---
 
