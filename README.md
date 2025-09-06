@@ -13,7 +13,10 @@ A collection of Python projects focused on practical applications and automation
 3. **news.py**
    *need to do more work*
 
-4. **esp 32 based temperature and whether detection system**
+---
+## ACTIVE PROJECT
+
+1. **esp 32 based temperature and whether detection system**
    using oled display we will show the output. this all done through the raspbery pi .
 
 
