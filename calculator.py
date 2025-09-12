@@ -1,4 +1,4 @@
-print("hello welcome to my calculator")
+
 
 def calc(a,b):
    
@@ -23,13 +23,14 @@ def calc(a,b):
     else :
         exit
 
+if __name__ == "__main__":
+    print("hello welcome to my calculator")
+    print("hello we have enter the main function : ")
 
-print("hello we have enter the main function : ")
-
-for i in range(5):
-    num1 = float(input("enter 1st number: "))
-    num2 = float(input("enter 2nd number: "))
-    calc(num1,num2)
+    for i in range(5):
+        num1 = float(input("enter 1st number: "))
+        num2 = float(input("enter 2nd number: "))
+        calc(num1,num2)
 
 
-print("I AM EXIT NOW")
+    print("I AM EXIT NOW")
