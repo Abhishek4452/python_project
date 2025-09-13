@@ -23,3 +23,4 @@ A collection of Python projects focused on practical applications and automation
 ---
 
 Feel free to explore the repository and contribute ideas or improvements!
+# python_project
